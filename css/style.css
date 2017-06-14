@@ -1,0 +1,118 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons {
+    margin: 8px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a.top1,
+a.top2 {
+    padding: 5px;
+    font-size: 120%;
+    text-decoration: none;
+    color: #0099d9;
+    border: 1px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a.top1 {
+    margin-left: inherit;
+}
+
+a.top2 {
+    text-align: center;
+}
+
+.brand_div {
+    width: 100%
+}
+
+
+/*a.top1:hover {
+    font-size: 123%;
+}
+
+a.top2:hover {
+    font-size: 123%;
+}*/
+
+.brand_text {
+    font-size: 80px;
+    font-family: sans-serif typeface;
+    color: #0099d9;
+    margin-left: 450px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 90px;
+    max-height: 15%;
+    max-width: 20%;
+    display: inline-block;
+}
+
+.owna {
+    margin-top: 90px;
+    margin-left: 500px;
+    padding: 20px;
+    height: 15%;
+    width: 20%;
+}
+
+.searchbox {
+    text-align: center;
+    display: block;
+}
+
+.searchbox input {
+    width: 700px;
+    height: 40px;
+}
+
+
+/*.searchbox input:hover {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 7px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+.btn {
+    background-color: white;
+}
+
+.container {
+    width: inherit;
+    height: inherit;
+    padding: 20px;
+}
+
+.icons {
+    padding: 30px 70px;
+    height: 50px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.icons:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 20ms ease-in;
+    transform: scale(1.05);
+}
+
+.cards {
+    text-align: center;
+}
